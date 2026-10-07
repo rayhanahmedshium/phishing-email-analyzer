@@ -1,0 +1,29 @@
+Return-Path: <bounce@bulk-mailer.example.org>
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=bulk-mailer.example.org; dkim=none; dmarc=fail header.from=northwind-alerts.example.net
+From: "Northwind Bank Security" <no-reply@northwind-alerts.example.net>
+Reply-To: account-team@freemail.example.org
+To: customer@example.com
+Subject: URGENT: Your account has been suspended
+Date: Tue, 06 Oct 2026 09:12:44 -0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+We detected unusual activity on your account. Your account will be closed
+within 24 hours unless you verify your account immediately.
+
+--b1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected <b>unusual activity</b> on your account. Your account will be closed
+within 24 hours unless you verify your account immediately.</p>
+<p><a href="http://198.51.100.23/northwind/login.php">https://www.northwindbank.example/secure</a></p>
+<p>Or use this link: <a href="https://bit.ly/3xYz12">click here</a></p>
+<p>Northwind Bank Security Team</p>
+</body></html>
+
+--b1--

